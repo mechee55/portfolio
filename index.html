@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Michiko Yamada</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="header-left" id="logo">
+          <img src="img/nameLogo.png" alt="name stamp in Japanese with a cat">
+        </div>
+
+        <div class="header-right">
+          <h1>MICHIKO YAMADA</h1>
+          <h6>hardcore cat lover / caffein addict</h6>
+        </div>
+        <div class="menu-icon" id="hamburger">
+          <img src=" img/menu-icon.png" alt="menu icon">
+        </div>
+      </div>
+    </header>
+
+    <hr>
+
+    <nav class="nav-bar" id="drawer">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="# ">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">art</a>
+        </li>
+        <li class="nav-item">
+          <a href="# ">web</a>
+        </li>
+        <li class="nav-item">
+          <a href="# ">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="main-top">
+
+        <div class="main-top-inner">
+          <img src="img/main.jpg" alt="image of a coffee cup that says begin">
+        </div>
+        <p class="credit">Image Source: Danielle MacInnes on Unsplash ❤️ Handlettering by me</p>
+
+      </section>
+
+      <!-- About me section -->
+
+      <section class="main-middle">
+        <div class="my-image">
+          <img src="img/rusty.jpg" alt="picture of a beautiful orange cat">
+        </div>
+
+        <div class="about-me-paragraph ">
+          <p>Hi! Thanks for visiting my very first website of my own! You may think that this site looks very early 2000's...
+            Well, my supervisor is a cat named Rusty (pictured here) and he hasn't had proper training as a UX/UI designer,
+            so this is what we get.
+
+            <br>Anyway, I'm originally from the beautiful northern part of Japan called Hokkaido. Lots of great seafood, but
+            we don't have Raindow Rolls there. Sigh.
+            <br>I LOVE cats (especially mine), jello, good music(old and new), wine, and Procreate!
+
+          </p>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+
+      <section class="main-bottom ">
+        <div class="gallery-title ">
+          <h2>Recent Work</h2>
+        </div>
+
+        <div class="gallery ">
+
+          <div class="gallery-box ">
+            <img src="img/cafeMeson.JPG " alt="sketch of a cute cafe ">
+            <p class="gallery-desc ">Mesón Cafe, Los Angeles</p>
+          </div>
+          <div class="gallery-box ">
+            <img src="img/kindness.jpg " alt="blackboard art about kindness ">
+            <p class="gallery-desc ">A favorite quote</p>
+          </div>
+          <div class="gallery-box ">
+            <img src="img/wedding.png " alt="blackboard art for a wedding ">
+            <p class="gallery-desc ">My friend's wedding</p>
+          </div>
+          <div class="gallery-box ">
+            <img src="img/rusty-cartoon.png " alt="cartoon ">
+            <p class="gallery-desc ">How I met Rusty</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      <div class="footer-inner ">
+
+        <div class="icons ">
+          <div class="icon ">
+            <img src="img/facebook.svg " alt="facebook icon ">
+          </div>
+          <div class="icon ">
+            <img src="img/instagram.svg " alt="instagram icon ">
+          </div>
+          <div class="icon ">
+            <img src="img/linkedin.svg " alt="LinkedIn icon ">
+          </div>
+          <div class="icon ">
+            <img src="img/twitter.svg " alt="Twitter icon ">
+          </div>
+        </div>
+
+        <h5 class="rights ">&copy; All rights reserved 2018</h5>
+      </div>
+    </footer>
+
+    <script>
+      const hamburgerMenu = document.querySelector('#hamburger');
+      const offCanvasMenu = document.querySelector('.nav-bar');
+      const slidingHeader = document.querySelector('.header-inner');
+
+      const body = document.querySelector('body');
+
+      const header = document.querySelector('.header-inner');
+
+      hamburgerMenu.addEventListener('click', function (e) {
+        offCanvasMenu.classList.toggle('open');
+        header.classList.toggle('slide')
+        e.stopPropagation();
+      })
+
+      body.addEventListener('click', function () {
+        offCanvasMenu.classList.remove('open');
+        header.classList.remove('slide');
+      })
+
+
+    </script>
+
+  </body>
+
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+
+
+
+
+/*
+ *
+ * Desktop
+ * 
+ */
+
+@media screen and (min-width: 1025px) {
+  
+}
+
+
+
+/*
+ *
+ * iPad
+ * 
+ */
+@media screen and (max-width: 1024px) {
+
+}
+
+
+
+/*
+ *
+ * Google Nexus5
+ * 
+ */
+
+@media screen and (max-width: 445px) {
+
+  html, body {
+    max-width: 360px;
+
+  }
+
+  main {
+    margin-bottom: 20px;
+  }
+
+/*
+ *
+ * HEADER
+ * 
+ */
+
+.header-inner {
+  height: 70px;
+  padding: 0;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  transition: transform 0.3s ease;
+}
+
+.header-inner.slide {
+  -webkit-transform: translate(-250px, 0);
+  transform: translate(-250px, 0);
+  
+}
+
+.header-left {
+  width: 15%;
+}
+
+.header-left img {
+  width: 100%;
+}
+
+.menu-icon {
+  width: 15%;
+  display: inline-block;  
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.menu-icon img {
+  width: 100%;
+  
+}
+
+.header-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-right h1 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.header-right h6 {
+  font-size: 0.6em;
+  color: #000;
+  padding:0;
+  background-color: rgb(243, 243, 243);
+}
+
+hr {
+  margin-top: 10px;
+}
+
+hr:after {
+  font-size: 0.9em;
+}
+
+/*
+ *
+ * NAV
+ * 
+ */
+
+.nav-bar {
+  width: 60%;
+  background: #FFA17F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding-top: 70px;
+  padding-left: 20px;
+  -webkit-transform: translate(360px, 0);
+  transform: translate(360px, 0);
+  transition: transform 0.3s ease;
+  z-index: 1;
+ }
+
+.nav-bar.open {
+  -webkit-transform: translate(100, 0);
+  transform: translate(100px, 0);
+ }
+
+ .nav-item {
+   display: block;
+   padding: 20px;
+ }
+
+.nav-item a {
+  color: #fff;
+}
+
+/*
+ *
+ * MAIN TOP
+ * 
+ */
+
+.main-top {
+  margin: 0;
+}
+
+.main-top-inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.credit {
+  font-size: 0.3em;
+}
+
+
+/*
+ *
+ * MAIN MIDDLE
+ * 
+ */
+
+.main-middle {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  
+}
+
+.my-image {
+  width: 30%;
+  height: 100px;
+}
+
+.my-image img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.about-me-paragraph {
+  width: 100%;
+  height: 60%;
+  background-color: #ffffffab;
+  margin-top: 20px;
+
+}
+
+.about-me-paragraph p {
+  font-size: 0.7em;
+}
+
+
+/*
+ *
+ * MAIN BOTTOM
+ * 
+ */
+
+.main-bottom {
+  padding-bottom: 0;
+}
+.gallery-title {
+  padding: 0;
+}
+
+.gallery-title h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.gallery {
+  margin-top: 25px;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-box {
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.gallery-desc {
+  font-size: 0.8em;
+}
+
+.gallery-desc {
+  padding-top: 10px;
+}
+
+
+/*
+ *
+ * FOOTER
+ * 
+ */
+.footer-inner {
+  padding: 20px 0;
+}
+ 
+.icons {
+   width: 60%;
+ }
+
+.icon {
+   width: 40px;
+   padding: 15px;
+ }
+
+.rights {
+  font-size: 0.8em;
+}
+
+}
