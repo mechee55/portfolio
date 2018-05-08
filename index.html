@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
 <body>
@@ -50,18 +51,18 @@
   </nav>
 
   <main>
-    <section class="main-top">
+    <div class="main-top">
 
       <div class="main-top-inner">
         <img src="img/main.jpg" alt="image of a coffee cup that says begin">
       </div>
       <p class="credit">Image Source: Danielle MacInnes on Unsplash ❤️ Handlettering by me</p>
 
-    </section>
+    </div>
 
     <!-- About me section -->
 
-    <section class="main-middle">
+    <div class="main-middle">
       <div class="my-image">
         <img src="img/rusty.jpg" alt="picture of a beautiful orange cat">
       </div>
@@ -77,11 +78,11 @@
 
         </p>
       </div>
-    </section>
+    </div>
 
     <!-- Gallery section -->
 
-    <section class="main-bottom">
+    <div class="main-bottom">
       <div class="gallery-title">
         <h2>Recent Work</h2>
       </div>
@@ -93,7 +94,7 @@
           <p class="gallery-desc">Mesón Cafe, Los Angeles</p>
         </div>
         <div class="gallery-box">
-          <img src="img/kindness.jpg" alt="blackboard art about kindness ">
+          <img src="img/kindness.jpg" alt="blackboard art about kindness">
           <p class="gallery-desc">A favorite quote</p>
         </div>
         <div class="gallery-box">
@@ -105,26 +106,36 @@
           <p class="gallery-desc ">How I met Rusty</p>
         </div>
       </div>
-    </section>
+    </div>
   </main>
 
   <hr>
 
   <footer>
-    <div class="footer-inner ">
+    <div class="footer-inner">
 
       <div class="icons">
-        <div class="icon ">
-          <img src="img/facebook.svg " alt="facebook icon ">
+        <div class="icon">
+          <a href="https://www.facebook.com/mechee55" target="_blank">
+            <img src="img/facebook.svg" alt="facebook icon">
+          </a>
+
         </div>
         <div class="icon">
-          <img src="img/instagram.svg " alt="instagram icon ">
+          <a href="https://www.instagram.com/mechee55" target="_blank">
+            <img src="img/instagram.svg" alt="instagram icon">
+          </a>
         </div>
         <div class="icon">
-          <img src="img/linkedin.svg " alt="LinkedIn icon ">
+          <a href="https://www.linkedin.com/in/michiko-yamada-52b344108" target="_blank">
+            <img src="img/linkedin.svg" alt="LinkedIn icon">
+          </a>
+
         </div>
         <div class="icon">
-          <img src="img/twitter.svg " alt="Twitter icon ">
+          <a href="https://twitter.com/mechee55" target="_blank">
+            <img src="img/twitter.svg" alt="Twitter icon">
+          </a>
         </div>
       </div>
 
@@ -132,27 +143,7 @@
     </div>
   </footer>
 
-  <script>
-    const hamburgerMenu = document.querySelector('#hamburger');
-    const offCanvasMenu = document.querySelector('.nav-bar');
-    const slidingHeader = document.querySelector('.header-inner');
-
-    const body = document.querySelector('body');
-
-    const header = document.querySelector('.header-inner');
-
-    hamburgerMenu.addEventListener('click', function (e) {
-      offCanvasMenu.classList.toggle('open');
-      header.classList.toggle('slide')
-      e.stopPropagation();
-    });
-
-    body.addEventListener('click', function () {
-      offCanvasMenu.classList.remove('open');
-      header.classList.remove('slide');
-    });
-  </script>
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>
