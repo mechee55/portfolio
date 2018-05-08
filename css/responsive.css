@@ -148,7 +148,7 @@
   }
 
   .header-right h6 {
-    font-size: 0.6em;
+    font-size: 0.5em;
     color: #000;
     padding:0;
     background-color: rgb(243, 243, 243);
@@ -245,6 +245,7 @@
     height: 80%;
     background-color: #ffffffab;
     margin-top: 20px;
+    padding: 10px 0;
   }
 
   .about-me-paragraph p {
