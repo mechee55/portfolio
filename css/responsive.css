@@ -245,7 +245,7 @@
     height: 80%;
     background-color: #ffffffab;
     margin-top: 20px;
-    padding: 10px 0;
+    padding: 20px 0;
   }
 
   .about-me-paragraph p {
@@ -313,6 +313,7 @@
 
   .rights {
     font-size: 0.8em;
+    font-weight: 300;
   }
 
 }
