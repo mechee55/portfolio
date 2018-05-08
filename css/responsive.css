@@ -88,6 +88,8 @@
 
   html, body {
     max-width: 360px;
+    overflow: hidden;
+    margin: 0 auto;
   }
 
   main {
@@ -174,13 +176,13 @@
     background: -webkit-linear-gradient(to top, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.9;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     padding-top: 70px;
     padding-left: 20px;
-    -webkit-transform: translate(360px, 0);
-    transform: translate(360px, 0);
+    -webkit-transform: translate(445px, 0);
+    transform: translate(445px, 0);
     transition: transform 0.3s ease;
     z-index: 1;
   }
@@ -313,7 +315,6 @@
 
   .rights {
     font-size: 0.8em;
-    font-weight: 300;
   }
 
 }
