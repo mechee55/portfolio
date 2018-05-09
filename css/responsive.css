@@ -374,7 +374,7 @@
   }
 
   .about-me-paragraph p {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   /*
@@ -426,25 +426,6 @@
   .footer-inner {
     display: flex;
     flex-direction: column;
-  }
-
-  .icons {
-    width: 60%;
-  }
-
-  .icon {
-    width: 40px;
-    padding: 15px;
-  }
-
-  .rights {
-    margin: 0;
-    margin-bottom: 40px;
-  }
-
-  .rights {
-    font-size: 0.8em;
-    font-weight: 300;
-
+    align-content: space-between;
   }
 }
