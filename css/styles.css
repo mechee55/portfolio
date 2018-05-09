@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-size: 16px;
   font-family: Helvetica, sans-serif;
   margin: 10px 5px;
@@ -36,7 +37,7 @@ hr {
 }
 
 hr:after {
-  content: "§";
+  content: '§';
   display: inline-block;
   position: relative;
   top: -0.7em;
@@ -91,10 +92,10 @@ hr:after {
   width: 24%;
   display: inline-block;
   text-align: center;
-  font-size: 1.2em;  
- }
+  font-size: 1.2em;
+}
 
- .nav-item a {
+.nav-item a {
   text-decoration: none;
   color: #616161;
   padding: 1.5em;
@@ -112,9 +113,8 @@ hr:after {
  * 
  */
 
-
 .main-top {
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 .main-top-inner img {
@@ -153,11 +153,11 @@ hr:after {
 
 .my-image img {
   max-width: 100%;
-  max-height: 100%;
+
   border-radius: 50%;
-  -webkit-box-shadow: 10px 10px 28px -5px rgba(120,119,120,0.61);
-  -moz-box-shadow: 10px 10px 28px -5px rgba(120,119,120,0.61);
-  box-shadow: 10px 10px 28px -5px rgba(120,119,120,0.61);
+  -webkit-box-shadow: 10px 10px 28px -5px rgba(120, 119, 120, 0.61);
+  -moz-box-shadow: 10px 10px 28px -5px rgba(120, 119, 120, 0.61);
+  box-shadow: 10px 10px 28px -5px rgba(120, 119, 120, 0.61);
 }
 
 .about-me-paragraph {
@@ -168,9 +168,9 @@ hr:after {
   display: flex;
   align-items: center;
   border-radius: 7px;
-  -webkit-box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.38);
-  -moz-box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.38);
-  box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.38);
 }
 
 .about-me-paragraph p {
@@ -183,9 +183,9 @@ hr:after {
  * 
  */
 
- .main-bottom {
+.main-bottom {
   padding-bottom: 40px;
- }
+}
 
 .gallery-title {
   font-family: 'Julius Sans One', sans-serif;
@@ -209,9 +209,9 @@ hr:after {
 .gallery-box img {
   width: 100%;
   height: 100%;
-  -webkit-box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.38);
-  -moz-box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.38);
-  box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.38);
+  box-shadow: 3px 3px 17px 0px rgba(0, 0, 0, 0.38);
 }
 
 .gallery-desc {
@@ -219,16 +219,15 @@ hr:after {
   text-align: center;
 }
 
-
 /*
  *
  * FOOTER
  * 
  */
- 
+
 footer {
-  height: 50px;
- }
+  height: 70px;
+}
 
 .footer-inner {
   display: flex;
@@ -240,7 +239,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 25%;
- }
+}
 
 .icon {
   width: 30px;

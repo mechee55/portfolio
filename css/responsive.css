@@ -36,7 +36,7 @@
   }
 
   .about-me-paragraph p {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .main-bottom {
@@ -64,6 +64,132 @@
 
   .gallery-desc {
     font-size: 0.8em;
+  }
+}
+
+/*
+ *
+ *  BETWEEN iPad and Nexus5
+ * 
+ */
+
+@media screen and (max-width: 630px) {
+  .header-inner {
+    height: 120px;
+    padding: 0;
+  }
+
+  .header-left {
+    width: 20%;
+  }
+
+  .header-left img {
+    width: 100%;
+  }
+
+  .header-right h1 {
+    font-size: 1.5em;
+  }
+
+  .header-right h6 {
+    font-size: 0.7em;
+  }
+
+  hr {
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .nav-item {
+    font-size: 0.9em;
+    width: 24%;
+  }
+
+  .nav-item a {
+    padding: 0;
+  }
+
+  .credit {
+    font-size: 0.4em;
+  }
+
+  .main-top {
+    margin-top: 20px;
+  }
+
+  .main-middle {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .my-image {
+    width: 35%;
+    height: 120px;
+    margin-top: 20px;
+  }
+
+  .my-image img {
+    border-radius: 50%;
+    width: 100%;
+  }
+
+  .about-me-paragraph {
+    width: 100%;
+    height: 50%;
+    background-color: #ffffffab;
+    margin-top: 40px;
+    padding: 15px 0;
+  }
+
+  .about-me-paragraph p {
+    font-size: 0.7em;
+  }
+
+  .gallery-title {
+    padding-bottom: 25px;
+  }
+
+  .gallery-title h2 {
+    font-size: 1.5em;
+  }
+
+  .gallery {
+    width: 100%;
+  }
+  .gallery-box {
+    padding-bottom: 50px;
+  }
+  .gallery-desc {
+    font-size: 0.7em;
+    padding: 10px 0;
+  }
+
+  footer,
+  .footer-inner {
+    height: 70px;
+  }
+
+  .icons {
+    width: 40%;
+  }
+
+  .icon {
+    width: 24%;
+  }
+
+  .icon img {
+    width: 70%;
+  }
+
+  .rights {
+    font-size: 0.6em;
   }
 }
 
@@ -235,7 +361,7 @@
 
   .my-image img {
     border-radius: 5px;
-    width: 100%;
+    width: 100vw;
   }
 
   .about-me-paragraph {
