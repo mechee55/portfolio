@@ -1,7 +1,7 @@
 const hamburgerMenu = document.querySelector('#hamburger')
-const offCanvasMenu = document.querySelector('.nav-bar')
+const offCanvasMenu = document.querySelector('#drawer')
 const body = document.querySelector('body')
-const header = document.querySelector('.header-inner')
+const header = document.querySelector('#slide-header')
 
 hamburgerMenu.addEventListener('click', function (e) {
   offCanvasMenu.classList.toggle('open')
